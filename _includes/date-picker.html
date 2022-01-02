@@ -1,0 +1,16 @@
+<div class="usa-form-group">
+    <label class="usa-label" id="{{ include.id }}-label" for="{{ include.id }}"
+      >{{ include.label }}</label
+    >
+    <div class="usa-hint" id="{{ include.id }}-hint">{{ include.hint }}</div>
+    <div class="usa-date-picker">
+      <input
+        class="usa-input"
+        id="{{ include.id }}"
+        name="{{ include.id }}"
+        type="text"
+        aria-labelledby="{{ include.id }}-label"
+        aria-describedby="{{ include.id }}-hint"
+      />
+    </div>
+  </div>
