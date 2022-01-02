@@ -28,3 +28,6 @@ Lorem ipsum dolor sit amet, [consectetur adipiscing elit](#), sed do eiusmod.
 
 <!-- The alert include using the converted HTML content. -->
 {% include alert.html heading="Houston, we have a problem" variant="warning" content=alert-text-html %}
+
+<!-- This is a simple alert that only allows plain-text for the body paragraph -->
+{% include alert-simple.html heading="Houston, we have a problem" variant="info" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod." %}
