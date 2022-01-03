@@ -1,5 +1,5 @@
 ---
-layout: column-one-of-two
+layout: default
 title: Home
 ---
 # {{ site.title }}
