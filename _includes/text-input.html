@@ -1,7 +1,14 @@
+<!--
+Copy this into your Markdown file to use this component:
+
+include text-input.html label="First name" id="first-name"
+
+-->
+
 <label class="usa-label {{ include.label-tokens }}" for="{{ include.id }}">{{ include.label }}</label>
 <input
   class="usa-input {{ include.input-tokens }}"
   id="{{ include.id }}"
   name="{{ include.id }}"
-  type="text"
+  type="{{ include.type }}"
 />
