@@ -21,3 +21,8 @@ github: [metadata]
 
 # Remove generation of additional style.css
 theme: null
+
+### CUSTOM CONTENT COLLECTIONS ###
+
+collections:
+  - sections
