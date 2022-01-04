@@ -1,0 +1,5 @@
+<div class="{{ include.container-settings }}">
+    {% for item in page.tags %}
+    <span class="usa-tag {{ include.tag-settings }}">{{ item.name }}</span>
+    {% endfor %}
+</div>
