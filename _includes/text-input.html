@@ -5,9 +5,9 @@ include text-input.html label="First name" id="first-name"
 
 -->
 
-<label class="usa-label {{ include.label-tokens }}" for="{{ include.id }}">{{ include.label }}</label>
+<label class="usa-label {{ include.label-style }}" for="{{ include.id }}">{{ include.label }}</label>
 <input
-  class="usa-input {{ include.input-tokens }}"
+  class="usa-input {{ include.input-style }}"
   id="{{ include.id }}"
   name="{{ include.id }}"
   type="{{ include.type }}"
