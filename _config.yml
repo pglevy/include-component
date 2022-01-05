@@ -22,6 +22,10 @@ github: [metadata]
 # Remove generation of additional style.css
 theme: null
 
+# Use `usa-prose` or not.
+# See https://designsystem.digital.gov/components/prose/ for more details.
+prose: true
+
 ### CUSTOM CONTENT COLLECTIONS ###
 
 collections:
