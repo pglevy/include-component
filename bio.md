@@ -37,9 +37,9 @@ Washington, D.C. 20240
 
 {% capture row %}
 
-{% include column.html content=column-1-formatted %}
+{% include column.html content=column-1-formatted column-style="grid-col" %}
 
-{% include column.html content=column-2-formatted %}
+{% include column.html content=column-2-formatted column-style="grid-col" %}
 
 {% endcapture %}
 
