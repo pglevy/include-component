@@ -3,9 +3,12 @@ layout: blank
 body-style: margin-top-5 bg-base-lighter
 ---
 
+# Rapid Web Prototyping Toolkit
+{: .text-center}
+
 <!-- Capture Markdown content for use with `grid` component. -->
 {% capture column %}
-# Sign in to your account
+## Sign in to your account
 {: .margin-top-0 .line-height-heading-2}
 
 <!-- Use a `text input` component for username. -->
@@ -26,8 +29,11 @@ Don't have an account? [Create one](#)
 
 <!-- Put the HTML content into a grid column and add optional settings. -->
 {% capture row %}
-{% include column.html content=column-html column-style="tablet:grid-col-6 tablet:grid-offset-3 bg-white radius-lg padding-5 shadow-2" %}
+{% include column.html content=column-html column-style="tablet:grid-col-6 tablet:grid-offset-3 bg-white radius-lg padding-5 shadow-4 margin-top-5" %}
 {% endcapture %}
 
 <!-- Put the grid column into a grid row and add optional settings. -->
 {% include row.html content=row %}
+
+Learn more about this toolkit on GitHub.
+{: .text-center}
