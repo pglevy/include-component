@@ -17,16 +17,28 @@ tags:
 
 {% include breadcrumbs.html %}
 
-{% include tags.html tag-settings="bg-secondary" container-settings="margin-y-5" %}
+{% include tags.html tag-settings="bg-secondary" container-settings="margin-y-2" %}
 
 <!-- Content for the grid row begins here. -->
 
 <!-- This is the content for column 1. -->
 {% capture col1 %}
-This could be some navigation:
+
+## Section Navigation
+{: .margin-top-2}
+
 - Section 1
 - Section 2
 - Section 3
+
+---
+
+## Sign up for our newsletter
+
+{% include text-input.html label="Email" id="email" %}
+
+[Sign up](#){: .usa-button .usa-button--outline}
+
 {% endcapture %}
 
 <!-- This is the content for column 2. -->
@@ -55,9 +67,9 @@ Washington, D.C. 20240
 
 <!-- Put the HTML content into grid columns and add optional settings. -->
 {% capture row %}
-{% include column.html content=col1-formatted column-settings="grid-col-3" %}
-{% include column.html content=col2-formatted column-settings="grid-col-6" %}
-{% include column.html content=col3-formatted column-settings="grid-col-3" %}
+{% include column.html content=col1-formatted column-style="grid-col-3" %}
+{% include column.html content=col2-formatted column-style="grid-col-6" %}
+{% include column.html content=col3-formatted column-style="grid-col-3" %}
 {% endcapture %}
 
 <!-- Put the grid columns into a grid row and add optional settings. -->
